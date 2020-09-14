@@ -14,10 +14,10 @@ if(!empty($categories) || !empty($name) || !empty($price) || !empty($quantity) |
    {
       
      
-      $host="sql207.epizy.com";
-        $dbusername="epiz_26741312";
-        $dbpassword="3cxi9a9QPeT";
-        $dbname="epiz_26741312_shopmanagement";
+        $host=" ";
+        $dbusername=" ";
+        $dbpassword=" ";
+        $dbname=" ";
 
         $conn = mysqli_connect("$host","$dbusername","$dbpassword","$dbname");
 

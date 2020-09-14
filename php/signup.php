@@ -11,11 +11,10 @@
   if(!empty($fname) || !empty($lname) || !empty($email) || !empty($phone) ||!empty($passw) ||!empty($confirmpassword))
    {
       
-     
-    $host="sql207.epizy.com";
-    $dbusername="epiz_26741312";
-    $dbpassword="3cxi9a9QPeT";
-    $dbname="epiz_26741312_users";
+    $host=" ";
+        $dbusername=" ";
+        $dbpassword=" ";
+        $dbname=" ";
 
         $conn = mysqli_connect("$host","$dbusername","$dbpassword","$dbname");
 

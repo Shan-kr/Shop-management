@@ -5,11 +5,10 @@
 
   if(!empty($email) || !empty($passw) )
   {
-    $host="sql207.epizy.com";
-    $dbusername="epiz_26741312";
-    $dbpassword="3cxi9a9QPeT";
-    $dbname="epiz_26741312_users";
-
+       $host=" ";
+        $dbusername=" ";
+        $dbpassword=" ";
+        $dbname=" ";
     $conn = mysqli_connect("$host","$dbusername","$dbpassword","$dbname");
 
     if(!$conn)
